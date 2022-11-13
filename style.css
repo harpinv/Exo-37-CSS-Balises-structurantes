@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    background-color: gainsboro;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    height: 100px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.entete {
+    margin-left: 50px;
+    font-weight: bolder;
+}
+
+.entete:hover {
+    color: darkgray;
+}
+
+.sommaire {
+    background-color: antiquewhite;
+    display: inline-block;
+    width: 20%;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.art {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: bisque;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.art:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.titre {
+    font-weight: bolder;
+}
+
+.corps {
+    display: inline-block;
+    width: 55%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sec {
+    margin-top: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.resume {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.text {
+    margin-top: 15px;
+}
+
+.partie {
+    display: inline-block;
+    width: 15%;
+    height: 500px;
+    background-color: antiquewhite;
+    margin: 20px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.pub {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+
+.pub:hover {
+    color: white;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    height: 100px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.lien {
+    margin-left: 50px;
+    font-weight: bolder;
+}
+
+.lien:hover {
+    color: darkgray;
+}
